@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".view_water_level">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtWaterLevel"
+        android:text=""
+        android:layout_marginBottom="50dp"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        />
+
+
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+<!--  For reference open the second project  : com.example.waterlevelmonitoring   -->
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="400dp"
+            android:src="@drawable/watertankimage"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center"/>
+
+
+        <!-- Water level indicator -->
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            android:layout_width="285dp"
+            android:layout_height="235dp"
+
+            android:layout_gravity="center"
+            android:layout_marginTop="19dp"
+            android:progressDrawable="@drawable/waterlevel_progress_bar"
+            android:max="100"
+            android:progress="0"
+            style="?android:attr/progressBarStyleHorizontal"/>
+<!--        <TextView-->
+<!--            android:id="@+id/progress_text"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:layout_marginTop="19dp"-->
+<!--            android:layout_centerInParent="true"-->
+<!--            android:text=""-->
+<!--            android:textSize="16sp"-->
+<!--            android:textColor="@android:color/white"/>-->
+    </FrameLayout>
+
+
+    <!--LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp"
+        >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnIncrease"
+            android:text="+"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnDecrease"
+            android:text="-"
+            android:layout_marginLeft="10dp"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            />
+
+
+    </LinearLayout-->
+    <!--Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnView"
+        android:text="View updated data"
+        android:layout_marginLeft="10dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        /-->
+
+</LinearLayout>

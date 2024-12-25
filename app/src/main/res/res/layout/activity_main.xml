@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    tools:context=".MainActivity"-->
+<!--    android:orientation="vertical"-->
+<!--    android:background="@color/splash_blue">-->
+
+<!--<TextView-->
+<!--    android:id="@+id/txtWelcome"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:text="Welcome"-->
+<!--    android:layout_marginTop="50dp"-->
+<!--    android:textColor="#FFFFFF"-->
+<!--    android:textSize="30dp"-->
+<!--    android:textStyle="bold"-->
+<!--    android:textAlignment="center"/>-->
+
+<!--</LinearLayout>-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/splash_blue"
+    >
+<!--    <TextView-->
+<!--        android:id="@+id/textView1"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text=""-->
+<!--        android:textSize="25sp"-->
+<!--        android:layout_gravity="center"-->
+<!--        />-->
+<!--    <ProgressBar-->
+<!--        android:id="@+id/progressBar1"-->
+<!--        style="?android:attr/progressBarStyleHorizontal"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:minHeight="100dp"-->
+<!--        android:minWidth="200dp" />-->
+
+</LinearLayout>

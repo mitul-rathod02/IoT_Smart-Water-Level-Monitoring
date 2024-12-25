@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    tools:context=".MainActivity"-->
+<!--    android:orientation="vertical"-->
+<!--    android:background="@color/splash_blue">-->
+
+<!--<TextView-->
+<!--    android:id="@+id/txtWelcome"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:text="Welcome"-->
+<!--    android:layout_marginTop="50dp"-->
+<!--    android:textColor="#FFFFFF"-->
+<!--    android:textSize="30dp"-->
+<!--    android:textStyle="bold"-->
+<!--    android:textAlignment="center"/>-->
+
+<!--</LinearLayout>-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+android:background="@color/black"
+    >
+<!--    <TextView-->
+<!--        android:id="@+id/textView1"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text=""-->
+<!--        android:textSize="25sp"-->
+<!--        android:layout_gravity="center"-->
+<!--        />-->
+<!--    <ProgressBar-->
+<!--        android:id="@+id/progressBar1"-->
+<!--        style="?android:attr/progressBarStyleHorizontal"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:minHeight="100dp"-->
+<!--        android:minWidth="200dp" />-->
+<!--    <com.orbitalsonic.waterwave.WaterWaveView-->
+<!--        android:id="@+id/waterWaveView"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="305dp"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:layout_marginTop="50dp"-->
+<!--        android:background="@drawable/shape"-->
+<!--        app:animatorEnable="true"-->
+<!--        app:behideColor="#90cbf9"-->
+<!--        app:borderColor="#000000"-->
+<!--        app:borderWidthSize="4dp"-->
+<!--        app:frontColor="#80c5fc"-->
+<!--        app:max="100"-->
+<!--        app:progress="20"-->
+<!--        app:shapePadding="10dp"-->
+<!--        app:shapeType="square"-->
+<!--        app:strong="100"-->
+<!--        app:textColor="#018786"-->
+<!--        app:textHidden="false" />-->
+
+    <cjh.WaveProgressBarlibrary.WaveProgressBar
+        android:id="@+id/waterLevel"
+        android:layout_width="300sp"
+        android:layout_height="800sp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/shape"
+        android:soundEffectsEnabled="false"
+        app:arc_color="#000"
+        app:behind_wave_color="#01A1D6"
+        app:cavans_bg="@color/white"
+        app:front_wave_color="#9DD8ED"
+        app:progress="10"
+        app:shape="square"
+        app:text_color="#000"
+        app:text_size="30sp"
+
+        />
+
+</RelativeLayout>
